@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+	<title>Avrgr</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="average.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.2.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar-fixed-top">
+			<span id="logo">Average Calculator</span>
+			<!--<a class="link" href="#pool">Aactive Pool</a>
+			<a class="link" href="#darts">Aactive Darts</a>-->
+		</nav>
+		<article>
+			<form class="form-vertical" role = "form">
+				<div class = "form-group col-xs-12 col-sm-6 col-md-12 col-lg-6">
+					<label class="sr-only" for="points">Points</label>
+					<input type="number" id="points" class="form-control" placeholder="Points" autofocus />
+				</div>
+				<div class = "form-group col-xs-12 col-sm-6 col-md-12 col-lg-6">
+					<label class="sr-only" for="gamesplayed">Games Played</label>
+					<input type="number" id="gamesplayed" class="form-control" placeholder="Games Played" />
+				</div>
+				<div class = "form-group col-xs-12 col-sm-6 col-md-12 col-lg-6">
+					<label class="sr-only" for="wins">Wins</label>
+					<input type="number" id="wins" class="form-control" placeholder="Wins" />
+				</div>
+				<div class = "form-group col-xs-12 col-sm-6 col-md-12 col-lg-6">
+					<label class="sr-only" for="eros">Eros</label>
+					<input type="number" id="eros" class="form-control" placeholder="Eros" />
+				</div>
+				<div class = "form-group col-xs-12 col-sm-6 col-md-12 col-lg-6">
+					<label class="sr-only" for="eroa">Eros Against</label>
+					<input type="number" id="eroa" class="form-control" placeholder="Eros Against" />
+				</div>
+				<div class = "form-group col-xs-12 col-sm-6 col-md-12 col-lg-6">
+					<label class="sr-only" for="8bb">8 Ball Breaks</label>
+					<input type="number" id="8bb" class="form-control" placeholder="8-ball Breaks" />
+				</div>
+				<div class = "form-group col-xs-12 col-sm-6 col-md-12 col-lg-6">
+					<label class="sr-only" for="firsts">First Attempts</label>
+					<input type="number" id="firsts" class="form-control" placeholder="1st Attempts" />
+				</div>
+				<div class="form-group col-xs-12 col-sm-6 col-md-12 col-lg-6">
+					<button id="calculate" class="btn btn-primary btn-sm">Calculate</button>
+					<button id="clear" class="btn btn-primary btn-sm">Clear</button>
+					<span id="averagedisplay"></span>
+				</div>
+			</form>	<div class="clear"></div>
+		</article>
+	</div>
+</body>
+</html>

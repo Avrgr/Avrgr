@@ -1,0 +1,61 @@
+
+
+/*Styling*/
+
+nav {
+  background: #444;
+  color: #ddd;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.link {
+  display: inline-block;
+  padding: 10px;
+}
+
+a.link, a.link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.anchor { 
+  display: none;
+}
+
+.center{
+  text-align: center;
+}
+
+label{
+  visibility:hidden;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+  -moz-appearance:textfield;
+}
+
+#averagedisplay{
+  display: none;
+}
+
+#averagedisplay:target{
+  display: inline;
+  transition:.5s;
+}
+
+article{
+  margin-top:50px;
+}
